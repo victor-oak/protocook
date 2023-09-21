@@ -1,0 +1,20 @@
+/* Stylesheet LP Protocook */
+
+@import 'normalize';
+@import 'global';
+@import 'hero';
+@import 'como-funciona';
+@import 'exemplos';
+@import 'designers';
+@import 'beneficios';
+@import 'processo';
+@import 'vantagens';
+@import 'planos';
+@import 'faq';
+@import 'footer';
+
+
+// retira section da extensão Loom do Chrome [RETIRAR EM PRODUÇÃO]
+#loom-companion-mv3 {
+    display: none;
+}

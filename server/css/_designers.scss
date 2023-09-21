@@ -1,0 +1,64 @@
+/* Designers section */
+
+.designers {
+    padding: 0 0 24px 0;
+
+    background: linear-gradient(180deg, #222222 0%, #222222 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);   
+}
+
+.designers p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    max-width: 750px;
+    margin: 0 auto 48px auto;
+
+    text-align: center;
+
+    background: linear-gradient(90.55deg, #FFB906 10.01%, #FF5C00 92.38%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+$animationSpeed: 80s;
+
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-206px * 14))}
+}
+
+
+
+.slider {
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	overflow:hidden;
+}
+
+
+
+.slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: 100%;
+    gap: 16px;
+}
+
+.slide {
+    padding: 8px 16px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+

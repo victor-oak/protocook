@@ -1,0 +1,33 @@
+/* Benefícios section */
+
+.cards-beneficio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+
+    margin-top: 64px;
+
+}
+
+.cards-beneficio .card {
+    position: relative;
+    max-width: 490px;
+    padding: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 16px;
+
+    flex-basis: 50%;
+}
+
+.cards-beneficio .card p {
+    max-width: 288px;
+}
+
+
+.cards-beneficio .card img {
+    position: absolute;
+    top: 48px;
+    right: 0;
+}

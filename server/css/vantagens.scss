@@ -1,0 +1,35 @@
+/* Vantagens section */
+
+.vantagens {
+    background-color: #222;
+    color: #fff;
+}
+
+.vantagens h2 {
+    line-height: 1.5;
+    max-width: 900px;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+
+.bullets-vantagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px 0;
+    
+}
+
+.item-vantagem {
+    flex-basis: 33%;
+    
+    text-align: center;
+}
+
+.item-vantagem p {
+    margin: 16px auto;
+    max-width: 285px;
+
+}

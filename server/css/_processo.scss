@@ -1,0 +1,202 @@
+/* Processo section */
+
+.processo {
+    padding-bottom: 0;  
+}
+
+.trilha {
+    position: relative;
+    max-width: 1440px;
+    overflow-x: scroll;
+
+    margin: 0 auto;
+
+}
+
+.trilha img {
+    
+    margin-top: 64px;
+}
+
+.passo {
+    position: absolute;
+    top: 370px;
+    
+    padding: 8px 16px;
+
+    border-radius: 50px;
+    background: #222;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+
+    color: #FFF;
+    font-family: Montserrat;
+ 
+}
+
+.passo h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.passo p {
+    display: none;
+    margin: 16px 0 0 0;
+
+    font-size: 14px;
+}
+
+.passo:hover {
+    top: 215px;
+
+    width: 300px;
+    height: 190px;
+    padding: 24px;
+    z-index: 2;
+
+    border-radius: 16px;
+}
+
+.passo:hover p {
+    display: block;
+
+}
+
+.passo-setup {
+    left: 122px;
+}
+
+.passo-setup:hover {
+    left: 24px;
+}
+
+.passo-requisitos {
+    left: 325px;
+}
+
+.passo-requisitos:hover {
+    left: 240px;
+}
+
+.passo-feedback {
+    top: 205px;
+    left: 475px;
+}
+
+.passo-feedback:hover {
+    top: 50px;
+    left: 400px;
+}
+
+.passo-design {
+    top: 205px;
+    left: 848px;
+}
+
+.passo-design:hover {
+    top: 50px;
+    left: 750px;
+}
+
+.passo-refinamento {
+    left: 970px;
+}
+
+.passo-refinamento:hover {
+    left: 890px;
+}
+
+.passo-handoff {
+    left: 1215px;
+}
+
+.passo-handoff:hover {
+    left: 1110px;
+}
+
+
+
+
+
+
+
+.entregaveis {
+    padding-top: 64px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, #222222 80%, #222222 100%);
+
+}
+
+
+.entregaveis h3 {
+    margin-bottom: 80px;
+    font-size: 32px;
+    text-align: center;
+    color: #222222;
+    font-weight: normal;
+}
+
+.cards-entregaveis {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 120px;
+    justify-content: center;
+
+    max-width: 1200px;
+    padding: 0 24px 100px 24px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 100px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;    
+}
+
+.cards-entregaveis .card {
+    max-width: 380px;
+    position: relative;
+}
+
+.cards-entregaveis .card::before {
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
+.card-prototipo::before { content: url('/img/ic-maolink.svg') }
+.card-fluxo::before { content: url('/img/ic-fluxo.svg') }
+.card-video::before { content: url('/img/ic-play.svg') }
+.card-arquivos::before { content: url('/img/ic-arquivo.svg') }
+
+
+.cards-entregaveis .card h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cards-entregaveis .card p {
+    margin-top: 8px;
+}
+
+.cards-entregaveis .card a {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 8px 12px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 1px 0px #D15A00;
+    text-decoration: none;
+
+    border: 0;
+    border-top: 1px solid;
+
+    border-color: rgba(255, 255, 255, 0.8);
+
+    background: linear-gradient(273.59deg, #FF5F04 -10.45%, #FFC805 113.4%);
+    box-shadow: 0px 2px 30px rgba(255, 110, 5, 0.5);
+    border-radius: 54px;
+}
