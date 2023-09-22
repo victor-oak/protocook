@@ -47,7 +47,8 @@
     font-size: 14px;
 }
 
-.passo:hover {
+.passo:hover,
+.passo:focus {
     top: 215px;
 
     width: 300px;
@@ -58,7 +59,8 @@
     border-radius: 16px;
 }
 
-.passo:hover p {
+.passo:hover p,
+.passo:focus p {
     display: block;
 
 }
@@ -67,7 +69,8 @@
     left: 122px;
 }
 
-.passo-setup:hover {
+.passo-setup:hover,
+.passo-setup:focus {
     left: 24px;
 }
 
@@ -75,7 +78,8 @@
     left: 325px;
 }
 
-.passo-requisitos:hover {
+.passo-requisitos:hover,
+.passo-requisitos:focus {
     left: 240px;
 }
 
@@ -84,7 +88,8 @@
     left: 475px;
 }
 
-.passo-feedback:hover {
+.passo-feedback:hover,
+.passo-feedback:focus {
     top: 50px;
     left: 400px;
 }
@@ -94,7 +99,8 @@
     left: 848px;
 }
 
-.passo-design:hover {
+.passo-design:hover,
+.passo-design:focus {
     top: 50px;
     left: 750px;
 }
@@ -103,7 +109,8 @@
     left: 970px;
 }
 
-.passo-refinamento:hover {
+.passo-refinamento:hover,
+.passo-refinamento:focus {
     left: 890px;
 }
 
@@ -111,20 +118,16 @@
     left: 1215px;
 }
 
-.passo-handoff:hover {
+.passo-handoff:hover,
+.passo-handoff:focus {
     left: 1110px;
 }
-
-
-
-
 
 
 
 .entregaveis {
     padding-top: 64px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, #222222 80%, #222222 100%);
-
 }
 
 

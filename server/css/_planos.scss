@@ -157,3 +157,23 @@
     margin: 0;
 }
 
+
+@media (max-width: 1200px) {
+    
+    .planos {
+        padding: 0 16px;
+    }
+
+    .cards-planos {
+        
+        flex-direction: column;
+        gap: 24px;
+        max-width: 100%;
+        margin: 48px 0;
+        align-items: center;
+    }
+
+    .card-plano {
+         width: 100%;
+     }
+}
