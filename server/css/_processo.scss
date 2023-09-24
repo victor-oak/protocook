@@ -207,10 +207,16 @@
 
 @media (max-width: 959px) {
     
-
     .cards-entregaveis {
         padding: 0 24px 40px 64px;
     }
 
+}
+
+@media (max-width: 408px) { 
+    
+    .entregaveis h3 {
+        margin-bottom: 48px;
+    }
 
 }
