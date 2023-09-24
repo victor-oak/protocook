@@ -156,6 +156,13 @@
 }
 
 
+@media (max-width: 740px) {
+    .hero p {
+        font-size: 24px;
+    }
+}
+
+
 
 @media (max-width: 600px) {
     .hero ul {
@@ -163,4 +170,13 @@
         gap: 32px;
         align-items: start;
     }
+}
+
+@media (max-width: 450px) {
+
+    .hero::before,
+    .hero::after {  
+        display: none;  
+    }
+   
 }

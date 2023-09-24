@@ -62,3 +62,15 @@ $animationSpeed: 80s;
     vertical-align: middle;
 }
 
+
+@media (max-width: 740px) {
+
+    .designers {
+        padding-top: 60px;
+    }
+    
+    .designers p {
+        font-size: 24px;
+    }
+
+}

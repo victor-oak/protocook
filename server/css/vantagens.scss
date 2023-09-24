@@ -33,3 +33,37 @@
     max-width: 285px;
 
 }
+
+@media (max-width: 740px) {
+    .bullets-vantagens {
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    .item-vantagem {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: left;
+        align-items: center;
+        text-align: left;
+    }
+
+    .item-vantagem p {
+        margin: 0;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 430px) {
+
+    .bullets-vantagens {
+        max-width: 100%;
+    }
+
+    .vantagens h2 {
+        font-size: 24px;
+    }
+} 

@@ -5,6 +5,7 @@
 .wrap {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 section {
@@ -56,4 +57,22 @@ p {
 
 small {
     font-size: 14px;
+}
+
+
+@media (max-width: 740px) {
+
+    section {
+        padding: 40px 0;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+
 }
