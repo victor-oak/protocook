@@ -123,6 +123,10 @@
     left: 1110px;
 }
 
+.passo-design-mobile {
+    display: none;
+}
+
 
 
 .entregaveis {
@@ -236,7 +240,11 @@
         background-size: contain;
         background-position: bottom;
     }
-    
+
+    .trilha img {
+        display: none;
+    }
+
 
     .passo {
         pointer-events: none;
@@ -258,10 +266,13 @@
         width: 60vw;
     }
 
-    .trilha img {
+    .passo-design {
         display: none;
     }
 
+    .passo-design-mobile {
+        display: block;
+    }
 
 }
 
