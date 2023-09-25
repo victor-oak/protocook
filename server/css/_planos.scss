@@ -184,3 +184,17 @@
          width: 100%;
      }
 }
+
+
+@media (max-width: 450px) {
+    .experimente strong {
+        display: block;
+    }
+}
+
+
+@media (max-width: 400px ) {
+    .card-plano .inner-content {
+        padding: 24px;
+    }
+}
