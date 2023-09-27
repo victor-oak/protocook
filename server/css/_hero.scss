@@ -77,21 +77,21 @@
     color: #E66200;
     position: relative;
 
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+
     
 }
 
 
-.hero .select-type::after {
-    content: " ";
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-image: url(/img/chevron.svg);
-
-    position: absolute;
-    top: 10px;
-    right: -24px;
+  
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
 }
+
+
 
 .cta {
     display: inline-block;
