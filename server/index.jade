@@ -1,18 +1,16 @@
 doctype html
 html(lang="pt-br")
     head
-        meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
 
-        meta(name="description" content="Design de protótipos por assinatura.")
+        // Google tag (gtag.js)
+        script(async src="https://www.googletagmanager.com/gtag/js?id=G-BL996T8M9D")
+        script.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        link(rel="icon" type="image/png" href="/img/favicon.png" sizes="16x16")
-        link(rel="preconnect" href="https://fonts.googleapis.com")
-        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
-        link(href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;700&display=swap" rel="stylesheet")
-        link(rel="stylesheet", href="css/style.css")
-        title Protocook
+            gtag('config', 'G-BL996T8M9D');
+            
 
         // Hotjar Tracking Code for https://protocook.com/
         script.
@@ -26,6 +24,18 @@ html(lang="pt-br")
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
 
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        meta(name="description" content="Design de protótipos por assinatura.")
+
+        link(rel="icon" type="image/png" href="/img/favicon.png" sizes="16x16")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;700&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="css/style.css")
+        title Protocook
 
     body
         
