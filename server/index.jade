@@ -11,10 +11,22 @@ html(lang="pt-br")
         link(rel="preconnect" href="https://fonts.googleapis.com")
         link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
         link(href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;700&display=swap" rel="stylesheet")
-
-        
         link(rel="stylesheet", href="css/style.css")
         title Protocook
+
+        // Hotjar Tracking Code for https://protocook.com/
+        script.
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:3679191,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+
+
     body
         
         section.hero 
@@ -198,7 +210,7 @@ html(lang="pt-br")
 
         section.vantagens 
             .wrap 
-                h2 Protótipos são ótimas ferramentas de validação, análise e comunicação
+                h2 Por que usar prótotipos?
                 .bullets-vantagens 
                     .item-vantagem
                         img(src="/img/ic-ideia.svg", alt="Ícone ideia")
@@ -217,11 +229,11 @@ html(lang="pt-br")
                         p Colha feedback de stakeholders e clientes.
                     .item-vantagem
                         img(src="/img/ic-bug.svg", alt="Ícone erros")
-                        p Reduza riscos de erros no projeto e refatoração no código.
+                        p Reduza riscos no projeto e refatoração no código.
 
         section.planos 
             h2#planos Escolha seu plano
-            p.subtitulo Valor fixo mensal, sem contratos ou taxas escondidas
+            p.subtitulo Valor fixo mensal, sem contrato ou taxas escondidas
             .cards-planos
                 .card-plano.basico
                     h3 Básico
@@ -361,8 +373,23 @@ html(lang="pt-br")
                     li
                         a(href="#") FAQ
 
+        .cookie-popup 
+            img(src="/img/cookie.svg", alt="Ilustração de um cookie")
+            p Usamos cookies para analisar e melhorar sua experiência.
+            a.btn-secundario(href="") Ok, sem problema
+            a.link-termo(href="") Termos de uso  
+
         script. 
             document.querySelector('.telas').scrollTo(800, 0);
+
+            document.querySelector('.cookie-popup .btn-secundario').addEventListener("click", function(e){
+                e.preventDefault();
+                document.querySelector('.cookie-popup').style.display = "none";
+
+                
+            })
+
+
 
             document.addEventListener('DOMContentLoaded',function(event){
             // array with texts to type in typewriter

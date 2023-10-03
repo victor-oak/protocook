@@ -59,6 +59,14 @@ small {
     font-size: 14px;
 }
 
+.cta:hover,
+.cards-entregaveis .card a:hover,
+.btn:hover,
+.btn-secundario:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
 
 @media (max-width: 740px) {
 
