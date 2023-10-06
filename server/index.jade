@@ -10,7 +10,7 @@ html(lang="pt-br")
             gtag('js', new Date());
 
             gtag('config', 'G-BL996T8M9D');
-            
+
 
         // Hotjar Tracking Code for https://protocook.com/
         script.
@@ -257,8 +257,8 @@ html(lang="pt-br")
                             li Ajustes ilimitados
                         
                         p.preco R$ #[span 1.999]/mês
-                        a.btn(href="#") Assinar
-                        a.demo(href="#") Agende uma demonstração
+                        a.btn(href="https://buy.stripe.com/5kA8zA95j3Sl30k6op") Assinar
+                        a.demo(href="https://calendly.com/protocook/demo" target="_blank") Agende uma demonstração
 
                 .card-plano.plus
                     h3 Plus
@@ -272,8 +272,8 @@ html(lang="pt-br")
                             li Ajustes ilimitados
                         
                         p.preco R$ #[span 4.999]/mês
-                        a.btn(href="#") Assinar
-                        a.demo(href="#") Agende uma demonstração
+                        a.btn(href="https://buy.stripe.com/14keXYepD60t0Sc6oq") Assinar
+                        a.demo(href="https://calendly.com/protocook/demo" target="_blank") Agende uma demonstração
 
                 .card-plano.super
                     h3 Super
@@ -287,13 +287,13 @@ html(lang="pt-br")
                             li Ajustes ilimitados
                         
                         p.preco R$ #[span 9.999]/mês
-                        a.btn(href="#") Assinar
-                        a.demo(href="#") Agende uma demonstração
+                        a.btn(href="https://buy.stripe.com/eVa3fg81fcoR9oI003") Assinar
+                        a.demo(href="https://calendly.com/protocook/demo" target="_blank") Agende uma demonstração
 
-            p.experimente #[strong Experimente 5 dias grátis.] Cancele quando quiser.
+            p.experimente #[strong Experimente o plano Básico 5 dias grátis.] Cancele quando quiser.
 
         section.faq
-            h2 Perguntas frequentes
+            h2#faq Perguntas frequentes
             p.subtitulo Entenda mais detalhes e tire suas dúvidas
             .box-perguntas
                 details.pergunta
@@ -373,21 +373,23 @@ html(lang="pt-br")
 
                 ul.links 
                     li
-                        a(href="#") Preços e planos
+                        a(href="#planos") Preços e planos
                     li
-                        a(href="#") Termos de uso
+                        a(href="https://calendly.com/protocook/demo" target="_blank") Agende uma demo
                     li
-                        a(href="#") Agende uma demo
+                        a(href="#faq") Perguntas frequentes 
                     li
-                        a(href="#") Contato
+                        a(href="termos-de-uso" target="_blank") Termos de Uso
                     li
-                        a(href="#") FAQ
+                        a(href="politica-de-privacidade" target="_blank") Política de Privacidade
+                    li
+                        a(mailto="contato@protocook.com") Contato
 
         .cookie-popup 
             img(src="/img/cookie.svg", alt="Ilustração de um cookie")
             p Usamos cookies para analisar e melhorar sua experiência.
-            a.btn-secundario(href="") Ok, sem problema
-            a.link-termo(href="") Termos de uso  
+            a.btn-secundario(href="#") Ok, sem problema
+            a.link-termo(href="politica-de-privacidade" target="_blank") Política de Privacidade  
 
         script. 
             document.querySelector('.telas').scrollTo(800, 0);
