@@ -220,7 +220,10 @@ html(lang="pt-br")
 
         section.vantagens 
             .wrap 
-                h2 Por que usar prótotipos?
+                h2
+                    span.quote "Se uma imagem vale mais que mil palavras, um protótipo vale mais que mil reuniões."
+                    br
+                    span.autor — IDEO
                 .bullets-vantagens 
                     .item-vantagem
                         img(src="/img/ic-ideia.svg", alt="Ícone ideia")
@@ -257,8 +260,13 @@ html(lang="pt-br")
                             li Ajustes ilimitados
                         
                         p.preco R$ #[span 1.999]/mês
-                        a.btn(href="https://buy.stripe.com/5kA8zA95j3Sl30k6op") Assinar
-                        a.demo(href="https://calendly.com/protocook/demo" target="_blank") Agende uma demonstração
+                       
+                        a.btn(href="https://buy.stripe.com/5kA8zA95j3Sl30k6op") Assinar 
+                            span.experimente Experimente 5 dias grátis
+
+                       
+                    
+                        
 
                 .card-plano.plus
                     h3 Plus
@@ -273,7 +281,7 @@ html(lang="pt-br")
                         
                         p.preco R$ #[span 4.999]/mês
                         a.btn(href="https://buy.stripe.com/14keXYepD60t0Sc6oq") Assinar
-                        a.demo(href="https://calendly.com/protocook/demo" target="_blank") Agende uma demonstração
+                        
 
                 .card-plano.super
                     h3 Super
@@ -283,14 +291,14 @@ html(lang="pt-br")
                             li Protótipos em alta-fidelidade
                             li Interações avançadas
                             li Revisões a cada 3 dias úteis
-                            li 1 pedido ativo por vez
+                            li 2 pedidos ativos por vez
                             li Ajustes ilimitados
                         
                         p.preco R$ #[span 9.999]/mês
                         a.btn(href="https://buy.stripe.com/eVa3fg81fcoR9oI003") Assinar
-                        a.demo(href="https://calendly.com/protocook/demo" target="_blank") Agende uma demonstração
+                        
 
-            p.experimente #[strong Experimente o plano Básico 5 dias grátis.] Cancele quando quiser.
+            a.demo(href="https://calendly.com/protocook/demo" target="_blank") Agende uma demonstração
 
         section.faq
             h2#faq Perguntas frequentes
@@ -343,7 +351,7 @@ html(lang="pt-br")
                     p Você pode cancelar sua assinatura a qualquer momento, sem multa. No entanto, valores já pagos não são reembolsados. Observe também nossa política de retenção de arquivos após o cancelamento.
                 details.pergunta
                     summary O protótipo pode ser um MVP?
-                    p Sim, em certos contextos podemos criar protótipos que servem como MVP (Minimum Viable Products) para validar suas ideias com seus usuários, porém não será uma versão funcional do produto.
+                    p Sim, em certos contextos podemos criar protótipos que servem como MVP (Minimum Viable Product) para validar suas ideias com seus usuários, porém não será uma versão funcional do produto.
                 details.pergunta
                     summary Qual diferença de wireframes e protótipos de alta-fidelidade?
                     p Wireframes são esboços mais simples que mostram a estrutura de uma página, enquanto protótipos de alta-fidelidade são visualmente mais próximos do design final e incluem interatividade.
@@ -362,7 +370,7 @@ html(lang="pt-br")
             
             .banner-duvidas 
                 h3 Tem mais dúvidas?
-                p #[a(href="#") Agende uma demonstração] ou #[br] fale com a gente em #[a(href='#') contato@protocook.com]
+                p #[a(href="#") Agende uma demonstração] ou #[br] fale com a gente em #[a(href='mailto:contato@protocook.com') contato@protocook.com]
         
         footer 
             .wrap 

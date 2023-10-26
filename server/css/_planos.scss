@@ -94,22 +94,7 @@
     
     }
 
-    .demo {
-        display: block;
-        margin-top: 24px;
 
-        font-size: 14px;
-        text-align: center;
-        text-decoration-line: underline;
-
-        color: #707070;
-
-        
-    }
-
-    .demo:hover {
-        color: #ff9205;
-    }
 
 }
 
@@ -122,6 +107,7 @@
      h3 { color: #51D036; }
      li::before { content: url(/img/bullet-basico.svg); }
      .btn {
+        position: relative;
         text-shadow: 0px 1px 0px #17A235;
         border-color: #EAF7D3;
         background: linear-gradient(273.59deg, #1FC944 -10.45%, #FFE600 113.4%);
@@ -165,10 +151,36 @@
 }
 
 .experimente {
-    color: #444;
-    font-size: 16px;
+    position: absolute;
+    display: block;
+    width: 100%;
     margin: 0;
     text-align: center;
+    top: 54px;
+    left: 0;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    text-shadow: none;
+    font-weight: normal;   
+}
+
+
+.demo {
+    display: block;
+    margin-top: 24px;
+
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #707070; 
+}
+
+
+.demo:hover {
+    color: #ff9205;
 }
 
 

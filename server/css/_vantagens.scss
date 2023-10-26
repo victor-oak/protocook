@@ -6,11 +6,31 @@
 }
 
 .vantagens h2 {
+    margin-bottom: 64px;
+}
+
+.vantagens h2 .quote {
     line-height: 1.5;
     max-width: 900px;
     color: #fff;
     margin: 0 auto;
     margin-bottom: 64px;
+    background: linear-gradient(0deg, #FFB906 10.01%, #FF5C00 92.38%),#fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    background-clip: text;
+    text-fill-color: rgba(0,0,0,0);
+
+    font-family: "Montserrat";
+    font-weight: normal;
+}
+
+
+.vantagens h2 .autor {
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: normal;
+    color: #999;
 }
 
 
