@@ -4,6 +4,8 @@
     padding-bottom: 0;  
 }
 
+
+
 .trilha {
     position: relative;
     max-width: 1440px;
@@ -17,6 +19,8 @@
     
     margin-top: 64px;
 }
+
+.trilha::-webkit-scrollbar { display: none; }
 
 .passo {
     position: absolute;

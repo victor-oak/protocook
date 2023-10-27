@@ -16,7 +16,6 @@
     padding: 100px 32px 16px 32px;
 
     -webkit-overflow-scrolling: touch;
-
     
   
     .tela {
@@ -62,5 +61,7 @@
     }
 
   }
+
+  .telas::-webkit-scrollbar { display: none; }
 
 
